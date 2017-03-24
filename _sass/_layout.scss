@@ -1,0 +1,33 @@
+/**
+ * Layout Abstractions
+ */
+.panel > div {
+    border: 5px solid red;
+    margin: 0 auto;
+    width: 1125px;
+    height: 350px;
+    
+}
+
+
+.hero {
+    background-color: blue;
+}
+
+
+.services-content {
+    background-color: green;
+}
+
+
+.prices-content {
+    background-color: yellow;
+}
+
+/**
+ * Hero Tiles
+ */
+
+ .hero-tiles {
+    text-align: center;
+ }
