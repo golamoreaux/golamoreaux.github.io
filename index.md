@@ -51,7 +51,7 @@ layout: default
             <li>
                 <div class="media">
                     <div class="graphic">
-                        <a href="#"><img src="http://placehold.it/200x350"></a>
+                        <a href="#"><img src="https://placehold.it/200x350"></a>
                     </div> 
                     <div class="content">
                         <h3>Picnic Tables</h3>
