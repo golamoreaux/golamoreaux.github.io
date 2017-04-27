@@ -1,12 +1,12 @@
 /**
  * Layout Abstractions
  */
+
 .panel > div {
-    border: 5px solid red;
     margin: 0 auto;
-    width: 1125px;
-    height: 350px;
-    
+    width: 1300px;
+    min-height: 350px;
+    text-align: center;
 }
 
 
@@ -18,7 +18,9 @@
 .services-content {
     background-color: green;
 }
-
+.services-content > div {
+	margin-top: 100px;
+}
 
 .prices-content {
     background-color: yellow;
@@ -29,5 +31,7 @@
  */
 
  .hero-tiles {
-    text-align: center;
+    
  }
+
+

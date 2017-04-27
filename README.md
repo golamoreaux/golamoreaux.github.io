@@ -2,7 +2,6 @@
 
 Simple website to showcase the activities and services the Lamoreaux do.
 
-
 ## Customer Flow
 
 Who are my customers:
@@ -14,7 +13,7 @@ Who are my customers:
 - Neighbors looking for Tether balls
 - Friends finding detais about movie night
 
-Top Tasks
+## Top Tasks
 
 - How much for X
 - Schedule Service for X
@@ -22,16 +21,19 @@ Top Tasks
 - Find Details about Movie
 - Request a movie
 
-Purchas Flow
+## Purchas Flow
 
 - I don't need this?
 - I want it but how does this compare with others?
 - I want it but i cant because of X?
 - I'm ready to get it
 
-Jobs/Activity
+## Information Architecture
 
-
+- Jobs/Activity
+- Sample of Main Services
+- Sample of Prices for top Services
+	- Link to more prices
 
 
 ## Resources

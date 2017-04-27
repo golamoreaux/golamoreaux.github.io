@@ -4,21 +4,31 @@
 *****************************************/
 
 /**
+ * Hero Title
+ */
+
+ .hero .title {
+    margin-top: 110px;
+    margin-bottom: 50px;
+ }
+
+/**
  * Hero Tile
  */
 
 .hero-tile {
 
-    text-align: center;
+    text-align: left;
     display: inline-block;
-    width: 270px;
+    width: 500px;
     height: 290px;
     vertical-align: top;
     color: #3C6807;
     background-color: orange;
     padding-top: 55px;
     position: relative;
-    margin: 0 10px;
+    margin: 0 30px;
+    padding: 30px 75px;
 
     -webkit-transform: translate(0px,25px);
     transform: translateY(25px);
@@ -29,41 +39,143 @@
 }
 
 .hero-tile.services {
-    width: 360px;
+    
 }
 
 .hero-tile.events {
-    width: 180px;
+    
 }
 
+.hero-tile a {
+    position: fixed;
+    bottom: 35px;
+}
 
 .hide {
     display:none
 }
 
 /**
-* Nav
+* Nav bar
 */
+
 .navbar {
-    overflow: hidden;
+  right: 0;
+  left: 0; 
+  margin-bottom: 0;
+  overflow: visible;
+  background-color: yellow;
+}
+
+
+.navbar-inner {
+  min-height: 40px;
+  background-color: pink;
+}
+
+.navbar-inner:before,
+.navbar-inner:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.navbar-inner:after {
+  clear: both;
+}
+
+.nav-collapse.collapse {
+  height: auto;
+  overflow: visible;
 }
 
 .navbar .brand {
+  width: 200px;
+}
+
+.navbar a.brand,
+.navbar a.brand:hover,
+.navbar a.brand:focus,{
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar a {
   display: block;
   float: left;
+  padding: 15px 20px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.nav {
-    position: relative;
-    left: 0;
-    display: block;
-    float: left;
-    margin: 0 10px 0 0;
-}
-.nav li {
-    float: left;
-}
-.nav li a {
-    display: block;
+
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: none;
+  border-bottom: 3px solid blue;
+  margin-bottom:-3px;
 }
 
 
+/**
+* Section Title
+*/
+
+.services-content .title {
+  position: relative;
+}
+
+.sservices-content sh2.title:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  right: 0px;
+  height: 5px;
+  background-image: -webkit-linear-gradient(0deg, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 600px, rgba(255,0,0,.5) 600px,  rgba(255,0,0,.5) 700px, rgba(0,0,0,0) 700px, rgba(0,0,0,0) 1300px );
+  background-size: 1300px;
+
+  
+}
+
+.services-content .title::after, .services-content .title::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  height: 3px;
+}
+
+.services-content .title::after {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background-color: blue;
+
+}
+
+.services-content .title::before {
+  width: 100%;
+  background-color: #ddd;
+}
+
+
+/**
+* Media Object
+*/
+
+.media {
+  width: 550px;
+  overflow: hidden;
+  min-height: 350px;
+  background-color: mediumpurple;
+}
+
+.media .graphic {
+  float: left;
+  with: 200px;
+}
+
+.media .content {
+  margin-left: 200px;
+}
