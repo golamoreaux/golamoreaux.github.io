@@ -1,4 +1,3 @@
-
 $(function(){
     
     var serverStateOn = false;
@@ -49,6 +48,14 @@ $(function(){
         $(".switch").show();
         $(".spinner").hide();
         $(".result" ).text( data.status);
+
+        if(data.status == "PowerState/running"){
+            $('.switch-lg :checkbox').prop('checked', true);
+        } else {
+            $('.switch-lg :checkbox').prop('checked', false);
+        }
+
+
     });
 
     MinecraftAPI.getServerStatus(serverAddress, {
