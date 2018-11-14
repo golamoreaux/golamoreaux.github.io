@@ -5,7 +5,7 @@ layout: default
 
 <div class="panel">
 	<div>
-    	<h1>Introducing GoLamoreaux</h1>
-    	<p>Find activities, services, and goods.</p> 
+    	<h1>Luminary Night</h1>
+    	<p>Learn more about <a href="/luminary">Kian's Luminary Night.</a></p> 
    	</div>
 </div>
